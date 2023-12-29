@@ -25,7 +25,7 @@ if "apple" in thislist:
     print("Yes, apple is in the list")
 
 #change item vale
-    theList[1] = "jame"
+theList[1] = "jame"
 print(theList)
 #change the range
 thislist[1:3] = ["pipeapple", "watermelon"]
@@ -37,3 +37,12 @@ print(theList)
 #append item in the last position
 theList.append("lichi")
 print(theList)
+#To append elements from another list to the current list
+theList.extend(thislist)
+print(theList)
+
+#add any iterable
+l = ['a','b']
+t = (1,2)
+l.extend(t)
+print(l)
