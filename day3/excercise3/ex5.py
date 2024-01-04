@@ -10,6 +10,4 @@ def fibo(n):
     
     #check 
 
-
-for i in range(5):
-        print(fibo(i))
+print(fibo(5))
